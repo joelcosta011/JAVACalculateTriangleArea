@@ -1,0 +1,7 @@
+// Please write your code after this line
+IO.output("Enter the width of the triangle: ");
+double w = IO.inputDouble();
+IO.output("Enter the height of the triangle: ");
+double h = IO.inputDouble();
+double calculated_area = w*h/2;
+IO.output("The triangle area = "+calculated_area);
